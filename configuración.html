@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>Monitoreo</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href="configuracion.css">
+    </head>
+    <form action=""> 
+
+    <img src="img/logo.png" width="100" height="50"  /> 
+    <div id="monitoreo">
+     <a href="#" class="button">Monitoreo</a>
+     </div>
+    <div id="configuracion">
+     <a href="#" class="button">Configuración</a>
+    </div>
+
+       <div id="ipdinam">
+     <a href="#" class="button">IP dinámica</a>
+   </div>
+   <div id="ipest">
+     <a href="#" class="button">IP estática</a>
+     </div>
+
+      <div id="main-container">
+     <table align="left" style="margin: ">
+       <tr>
+         <td>Dirección IP:</td>
+         <td>10.10.10.10</td>
+       </tr>
+       <tr>
+         <td>Máscara:</td>
+         <td>10.10.10.10</td>
+       </tr>
+       <tr>
+         <td>Gateway:</td>
+         <td>10.10.10.10</td>
+       </tr>
+       <tr>
+         <td>DNS1:</td>
+         <td>10.10.10.10</td>
+       </tr>
+       <tr>
+         <td>DNS2:</td>
+         <td>10.10.10.10</td>
+       </tr>    
+     </table>
+   </div>
+
+   <div id="botonera">
+     <table align="left">
+       <tr>
+         <td>Tipo:</td>
+         <td><input list="tipo">
+  <datalist id="tipo">
+    <option value="ejemplo1">
+    <option value="ejemplo2">
+    <option value="ejemplo3">
+    <option value="ejemplo4">
+    <option value="ejemplo5">
+  </datalist></td>
+       </tr>
+       <tr>
+         <td>Canal:</td>
+         <td><input list="canal">
+  <datalist id="canal">
+    <option value="ejemplo1">
+    <option value="ejemplo2">
+    <option value="ejemplo3">
+    <option value="ejemplo4">
+    <option value="ejemplo5"></td>
+       </tr>
+       <tr>
+         <td>IP de servidor</td>
+         <td><input name="ipservidor" type="text" placeholder="b2:cc:ef:34:25:aa"></td>
+       </tr>
+       <tr>
+         <td>Metereológica</td>
+         <td><input name="meteorologica" type="text" placeholder="b2:cc:ef:34:25:aa"></td>
+       </tr>
+       <tr>
+         <td>Botonera</td>
+         <td><input list="botonera">
+  <datalist id="botonera">
+    <option value="ejemplo1">
+    <option value="ejemplo2">
+    <option value="ejemplo3">
+    <option value="ejemplo4">
+    <option value="ejemplo5">
+  </datalist> </td>
+       </tr>
+     </table>
+     </div>
+
+     <div id="escanear"> 
+      <a href="#" class="button">Escanear</a></div>
+     <div align="center">
+      <div id="puertos"  align="left">
+      <table >
+        <tr>
+          <th>Habilitar puertos</th>
+        </tr>
+       <tr>
+         <td>8883: TCP</td>
+       </tr>
+       <tr>
+         <td>8888: TCP</td>
+       </tr>
+       <tr>
+         <td>123: UDP</td>
+       </tr>
+       <tr>
+         <td>22:TCP</td>
+       </tr>
+       </form>
+
+       
+     </table>
+
+      <div id="guardar"> 
+      <a href="#" class="button">Guardar</a></div>
+     <div align="center">
+   
+
+  </body>
+</html>

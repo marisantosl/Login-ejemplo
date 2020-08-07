@@ -1,0 +1,128 @@
+#configuracion{
+	margin: 30px auto;
+	margin-left: 210px;
+	position: absolute;
+	padding: 10px 20px;
+	text-align: center;
+	top: 10%;
+	background-color: #52DDF5;
+}
+#monitoreo{
+	margin: 30px auto;
+	margin-left: 100px;
+	position: absolute;
+	padding: 10px 20px;
+	text-align: center;
+	top: 10%;
+	background-color: #fff;
+}
+
+#main-container {
+	margin: 30px auto;
+	margin-left: 250px;
+	position: absolute;
+	padding: 10px 20px;
+	text-align: center;
+	top: 20%;
+}
+#main-container a:hover{
+	background-color: #000000;
+}
+#botonera {
+	margin: 30px auto;
+	margin-left: 550px;
+	position: absolute;
+	padding: 10px 20px;
+	top: 130px;
+	text-align: center;
+}
+#botones{
+	margin: 5px 110px;
+	position: absolute;
+	background-color: #52DDF5;
+	color: #fff;
+	position: absolute;
+	font-size: 1.00em;
+	padding: 10px 20px;
+	text-align: center;
+	border-color: #0000;
+	
+}
+#guardar{
+	position: absolute;
+	top: 100%;
+	left: 400px;
+	background-color: #1BAFF0;
+	position: absolute;
+	color: #fff;
+	font-size: 1.00em;
+	margin: auto;
+	padding: 10px 20px;
+}
+#guardar :hover{
+	background-color: #000000;
+}
+#escanear{
+	position: absolute;
+	left: 61%;
+	top: 40%;
+	margin: 5px 110px;
+	background-color: #52DDF5;
+	color: #fff;
+	position: absolute;
+	font-size: 1.00em;
+	padding: 10px 20px;
+	text-align: center;
+}
+#puertos{
+	position:absolute;
+	top: 60%;
+    content:  125px;
+	background-color: #F5F052;
+	margin-left: 180px;
+}
+#ipdinam{
+	margin: 5px 110px;
+	top: 20%;
+	position:absolute;
+	background-color: #F5F052;
+	margin: 5px 110px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border-color: #0000
+}
+#ipest{
+	margin: 5px 225px;
+	top: 20%;
+	position:absolute;
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border-color: #0000
+}
+img{
+
+	margin-left: 1210px
+}
+table{
+	top: 40%;
+	margin-top: center;
+	margin: center;
+}
+td{
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border: 0px;
+	border-top-color: : #F6F4E8;
+}
+th{
+	
+}
+.button {
+
+	text-decoration:none;
+	cursor: pointer;
+}
+
